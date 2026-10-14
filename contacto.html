@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <title>Contacto | Carlos Stiven Plazas Díaz</title>
+ 
+    <meta name="description" content="Página de contacto de Carlos Stiven Plazas Díaz.">
+    <meta name="keywords" content="contacto, Carlos Stiven Plazas Díaz, formulario">
+    <meta name="author" content="Carlos Stiven Plazas Díaz">
+ 
+ 
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="estilos.css">
+ 
+    <!-- modo claro y oscuro -->
+    <script src="tema.js"></script>
+</head>
+ 
+<body>
+ 
+    <header class="encabezado">
+ 
+        <h1>Carlos Stiven Plazas Díaz</h1>
+ 
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>
+                <li><a href="articulos.html">Artículos</a></li>
+                <li><a href="contacto.html" class="activo">Contacto</a></li>
+                <li><button type="button" id="boton-tema" class="boton-tema"></button></li>
+            </ul>
+        </nav>
+ 
+    </header>
+ 
+ 
+    <main class="principal">
+ 
+        <section class="portada">
+ 
+            <h2>Contacto</h2>
+ 
+            <p>
+                Puedes comunicarte conmigo mediante los
+                siguientes datos o utilizando el formulario.
+            </p>
+ 
+        </section>
+ 
+ 
+        <!-- DOS COLUMNAS -->
+ 
+        <section class="dos-columnas">
+ 
+            <section class="tarjeta">
+ 
+                <h2>Información de contacto</h2>
+ 
+                <address>
+ 
+                    <p>
+                        <strong>Nombre:</strong>
+                        Carlos Stiven Plazas Díaz
+                    </p>
+ 
+                    <p>
+                        <strong>Correo:</strong>
+                        cplazas555@gmail.com
+                    </p>
+ 
+                    <p>
+                        <strong>Teléfono:</strong>
+                        322 349 2578
+                    </p>
+ 
+                </address>
+ 
+            </section>
+ 
+ 
+            <section class="tarjeta">
+ 
+                <h2>Enviar mensaje</h2>
+ 
+                <form action="#" method="post" class="formulario">
+ 
+                    <p>
+                        <label for="nombre">
+                            Nombre:
+                        </label>
+ 
+                        <input
+                            type="text"
+                            id="nombre"
+                            name="nombre"
+                            required
+                        >
+                    </p>
+ 
+ 
+                    <p>
+                        <label for="correo">
+                            Correo:
+                        </label>
+ 
+                        <input
+                            type="email"
+                            id="correo"
+                            name="correo"
+                            required
+                        >
+                    </p>
+ 
+ 
+                    <p>
+                        <label for="mensaje">
+                            Mensaje:
+                        </label>
+ 
+                        <textarea
+                            id="mensaje"
+                            name="mensaje"
+                            rows="6"
+                            required
+                        ></textarea>
+                    </p>
+ 
+ 
+                    <p>
+                        <button type="submit">
+                            Enviar
+                        </button>
+                    </p>
+ 
+                </form>
+ 
+            </section>
+ 
+        </section>
+ 
+    </main>
+ 
+ 
+    <footer class="pie">
+ 
+        <p>© 2026 Carlos Stiven Plazas Díaz</p>
+ 
+    </footer>
+ 
+</body>
+ 
+</html>
